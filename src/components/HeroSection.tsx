@@ -8,25 +8,6 @@ import character4 from "@/assets/character4.jpg";
 const HeroSection = () => {
   return (
     <div className="min-h-screen bg-hero-bg flex flex-col">
-      {/* Navigation */}
-      <nav className="flex justify-between items-center p-6 lg:p-8">
-        <div className="flex items-center gap-3">
-          <img src={sondesignsLogo} alt="SONDESIGNS" className="h-8 w-auto" />
-          <span className="text-xl font-semibold text-foreground">SONDESIGNS</span>
-        </div>
-        <div className="hidden md:flex items-center gap-6">
-          <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
-            Services
-          </a>
-          <a href="#portfolio" className="text-muted-foreground hover:text-foreground transition-colors">
-            Portfolio
-          </a>
-          <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-            Contact
-          </a>
-        </div>
-      </nav>
-
       {/* Hero Content */}
       <div className="flex-1 flex items-center px-6 lg:px-8">
         <div className="w-full max-w-7xl mx-auto">
