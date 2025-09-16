@@ -12,6 +12,7 @@ const HeroSection = () => {
       <nav className="flex justify-between items-center p-6 lg:p-8">
         <div className="flex items-center gap-3">
           <img src={sondesignsLogo} alt="SONDESIGNS" className="h-8 w-auto" />
+          <span className="text-xl font-semibold text-foreground">SONDESIGNS</span>
         </div>
         <div className="hidden md:flex items-center gap-6">
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
